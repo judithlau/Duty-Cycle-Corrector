@@ -35,6 +35,7 @@ This project is done with TSMC 180nm PDK.
 testing path: 
 /V1_DCC_COARSE_5JAN/DCC_COARSE_TT_TB/adexl → COARSE_TEST → RUN
 
+The layout used is a collaborated work, therefore not attached for testing, please use the schematic testing.
 
 The schematic is able to produce the rough duty cycle wanted. However, in postlayout, the results varied a lot. Initially, it is guessed to be the problem of ignoring parasitic components at the stage of schematic simulation.
 
