@@ -32,6 +32,10 @@ This project is done with TSMC 180nm PDK.
 ### Result:
 ![image](https://github.com/judithlau/Duty-Cycle-Corrector/assets/52502238/b8bf5773-92a4-4208-a401-1bf2620ddf32)
 
+testing path: 
+/V1_DCC_COARSE_5JAN/DCC_COARSE_TT_TB/adexl → COARSE_TEST → RUN
+
+
 The schematic is able to produce the rough duty cycle wanted. However, in postlayout, the results varied a lot. Initially, it is guessed to be the problem of ignoring parasitic components at the stage of schematic simulation.
 
 ### Follow-up improvement to do:
