@@ -18,16 +18,16 @@ The core module comes from alternative implementation of current starving curren
 This project is done with TSMC 180nm PDK.
 
 ## Finished work
-- V1_COARSE module (5Jan):
-
+- V1_DCC_COARSE module (5Jan):
 	A module that would modify an **ideal 200Mhz input signal (with tr/tf = 150ps)** from duty cycle = 50% to 40 ~ 60% with step = 2%
 
+	Designed with redundant stage cascaded.
 ## Incoming work
-- V2_COARSE module with redundant stage cascaded
+- V2_DCC_COARSE module with redundant stage cascaded
 	- Fine tune the postlayout of coarse module.
 	- Cascade a redundant stage for preparation to connect a FINE module(modifying input signal 50% to 47% ~ 53% with step 0.3%)  
 		![image](https://github.com/judithlau/Duty-Cycle-Corrector/assets/52502238/ab7d1403-3029-4e23-b626-0f1c4dbdf42a) [^2]
-## Version1. Independent COARSE module (5Jan)
+## Version1. (V1_DCC_COARSE module)Independent COARSE module (5Jan)
 
 ### Result:
 ![image](https://github.com/judithlau/Duty-Cycle-Corrector/assets/52502238/b8bf5773-92a4-4208-a401-1bf2620ddf32)
