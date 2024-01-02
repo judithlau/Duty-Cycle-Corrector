@@ -26,9 +26,7 @@ This project is done with TSMC 180nm PDK.
 - V2_COARSE module with redundant stage cascaded
 	- Fine tune the postlayout of coarse module.
 	- Cascade a redundant stage for preparation to connect a FINE module(modifying input signal 50% to 47% ~ 53% with step 0.3%)  
-		![image](https://github.com/judithlau/Duty-Cycle-Corrector/assets/52502238/ab7d1403-3029-4e23-b626-0f1c4dbdf42a)
-		
-		([^2])
+		![image](https://github.com/judithlau/Duty-Cycle-Corrector/assets/52502238/ab7d1403-3029-4e23-b626-0f1c4dbdf42a) [^2]
 ## Version1. Independent COARSE module (5Jan)
 
 ### Result:
@@ -41,5 +39,5 @@ The schematic is able to produce the rough duty cycle wanted. However, in postla
 - Re-engineer the cascading core modules
 - Fine-tune the tr/tf of COARSE output to specified symmetric value for FINE module.
 ###
-[^1] https://ieeexplore.ieee.org/document/1328311
-[^2] A graph from EESM5000 FALL23 Project2 description.
+[^1]: https://ieeexplore.ieee.org/document/1328311
+[^2]: A graph from EESM5000 FALL23 Project2 description.
